@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+header nav {
+    display: block;
+}
+ 
+header {
+    background-color: rgb(211, 192, 233);
+    float: right;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+
+header a img { 
+    float: left;
+    width: 4rem; ;
+    padding: 1rem;
+}
+
+header nav h2 { 
+    float: left;
+    padding: .5rem;
+
+}
+
+header nav h2:hover{
+    color: rgb(197, 131, 209);
+    border-bottom: 8px solid;
+
+}
+
+
+header nav ul{
+    float: left;
+    display: block;
+}
+header nav li{
+    display: list-item;
+    float: left;
+    padding: 1.1rem;
+    list-style: none;
+}
+
+header nav ul li:hover {
+    color: rgb(197, 131, 209);
+    border-bottom:8px solid;
+}
+.imagen{
+    margin-top: 3.5rem;
+    width: 8rem;
+    border-radius: 4rem;
+    margin-left: 1rem;
+
+}
+.grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+       
+}
+    .grid img{
+        width: 300px; ;
+
+    }
+.card{
+    padding: 1rem;
+    border: 3px;
+    border-color: blueviolet;
+    margin: 1rem; box-shadow: 0 1px 0 2px rgb(130, 126, 126);
+    border-radius: 1rem;
+    text-align: center;
+    transition: .3s;
+}
+.card:hover{
+        box-shadow: 0 2px 0 4px rgb(91, 80, 80); 
+}
+.card video {
+    width: 18rem;
+}
